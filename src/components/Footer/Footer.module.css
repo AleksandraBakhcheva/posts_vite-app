@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: var(--header-footer-bg-color);
+}
+
+.link {
+  color: var(--app-main-color);
+}
+
+.link:hover {
+  color: var(--other-main-color);
+  background-color: var(--app-main-color);
+}
