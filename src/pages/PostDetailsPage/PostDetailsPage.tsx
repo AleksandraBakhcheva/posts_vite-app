@@ -2,8 +2,6 @@ import styles from "./PostDetailsPage.module.css";
 import { useParams } from "react-router-dom";
 import store from "../../store/PostsStore.js";
 import { IPost } from "../../utils/Interfaces.js";
-import { Header } from "../../components/Header/Header.js";
-import { Footer } from "../../components/Footer/Footer.js";
 
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -24,7 +22,6 @@ export const PostDetailsPage = () => {
 
   return (
     <>
-      <Header />
       <main className={styles.post}>
         <div className={styles.post_box}>
           <h3>Post Id: {post.id}</h3>
@@ -41,7 +38,6 @@ export const PostDetailsPage = () => {
           </Link>
         </div>
       </main>
-      <Footer />
     </>
   );
 };
