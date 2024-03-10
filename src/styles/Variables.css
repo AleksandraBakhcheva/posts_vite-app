@@ -1,0 +1,16 @@
+:root {
+  /* colors */
+  --header-footer-bg-color: #7eb09b;
+  --app-main-color: #000000;
+  --other-main-color: #ffffff;
+  --post-bg-color: #ecbeb4;
+  --post-hover-bg-color: #efd0c9;
+  --post-header-color: #2d4245;
+  --post-details-bg-color: #f5f5dc;
+  --link-text-color: #686868;
+  --button-bg-color: #c2c984;
+  --button-hover-bg-color: #c8cab1;
+
+  /* borders */
+  --post-border: 2px solid #343333;
+}
