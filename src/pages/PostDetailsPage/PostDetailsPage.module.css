@@ -1,0 +1,17 @@
+.post {
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post_box {
+  padding: 5%;
+  background-color: var(--post-details-bg-color);
+}
+
+.header {
+  padding: 2%;
+}
