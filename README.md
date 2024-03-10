@@ -1,6 +1,6 @@
-# Posts 
+# Posts with pagination
 
-App based on {JSON} Placeholder API showing posts
+App based on {JSON} Placeholder API showing posts with pagination 10 per page 🚩
 
 ## Screens
 
@@ -15,7 +15,7 @@ App based on {JSON} Placeholder API showing posts
 - MobX
 - TypeScript
 - React Router
-- Css Modules
+- CSS Modules
 - Framer Motion
 - Vite
   
