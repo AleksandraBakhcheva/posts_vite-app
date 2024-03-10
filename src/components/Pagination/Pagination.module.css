@@ -10,7 +10,8 @@
   list-style: none;
 }
 
-.page {
+.page,
+.activePageNumber {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,4 +26,9 @@
 
 .page:hover {
   background-color: var(--page-hover-bg-color);
+}
+
+.activePageNumber {
+  color: var(--other-main-color);
+  background-color: var(--active-page-bg-color);
 }

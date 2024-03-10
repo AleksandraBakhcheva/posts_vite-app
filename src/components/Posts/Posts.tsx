@@ -34,6 +34,7 @@ export const Posts = observer(() => {
           postsPerPage={postsPerPage}
           totalPosts={store.posts.length}
           paginate={paginate}
+          currentPage={currentPage}
         />
       </div>
     </>

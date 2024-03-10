@@ -1,5 +1,6 @@
 .post {
   display: flex;
+  min-height: 250px;
   align-items: center;
   padding: 4%;
   border: var(--post-border);

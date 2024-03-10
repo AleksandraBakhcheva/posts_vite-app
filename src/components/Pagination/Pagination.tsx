@@ -14,7 +14,15 @@ export const Pagination = (props: PaginationProps) => {
       <ul className={styles.pages}>
         {pageNumbers.map((number: number) => (
           <Link to="/" onClick={() => props.paginate(number)}>
-            <li className={styles.page} key={number}>
+            <li
+              //className={styles.page}
+              className={
+                number === props.currentPage
+                  ? styles.activePageNumber
+                  : styles.page
+              }
+              key={number}
+            >
               {number}
             </li>
           </Link>
