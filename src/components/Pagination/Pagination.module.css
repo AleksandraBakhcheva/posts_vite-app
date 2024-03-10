@@ -1,0 +1,28 @@
+.container {
+  padding: 2%;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: var(--page-bg-color);
+}
+
+.page:hover {
+  background-color: var(--page-hover-bg-color);
+}
