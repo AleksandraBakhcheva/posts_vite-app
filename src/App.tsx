@@ -4,7 +4,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout.js";
 import { HomePage } from "./pages/HomePage.js";
 import { PostDetailsPage } from "./pages/PostDetailsPage/PostDetailsPage.js";
-import { NotFoundPage } from "./pages/NotFoundPage.js";
+import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage.js";
 
 function App() {
   return (
