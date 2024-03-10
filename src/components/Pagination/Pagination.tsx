@@ -1,5 +1,5 @@
 import styles from "./Pagination.module.css";
-import { PaginationProps } from "../../utils/types.js";
+import { PaginationProps } from "../../utils/Types.js";
 import { Link } from "react-router-dom";
 
 export const Pagination = (props: PaginationProps) => {
