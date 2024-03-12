@@ -15,3 +15,28 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  margin-top: 0;
+  padding: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: var(--page-bg-color);
+}
+
+.button:hover {
+  background-color: var(--page-hover-bg-color);
+}
