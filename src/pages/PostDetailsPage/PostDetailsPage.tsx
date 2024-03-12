@@ -22,7 +22,7 @@ export const PostDetailsPage = () => {
 
   return (
     <>
-      <main className={styles.post}>
+      <div className={styles.post}>
         <div className={styles.post_box}>
           <h3>Post Id: {post.id}</h3>
           <h2 className={styles.header}>Post Title: "{post.title}"</h2>
@@ -37,7 +37,7 @@ export const PostDetailsPage = () => {
             </motion.button>
           </Link>
         </div>
-      </main>
+      </div>
     </>
   );
 };
