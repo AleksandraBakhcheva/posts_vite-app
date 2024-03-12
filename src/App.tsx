@@ -2,7 +2,7 @@ import { Provider } from "mobx-react";
 import store from "./store/PostsStore.js";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout.js";
-import { HomePage } from "./pages/HomePage.js";
+import { HomePage } from "./pages/HomePage/HomePage.js";
 import { PostDetailsPage } from "./pages/PostDetailsPage/PostDetailsPage.js";
 import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage.js";
 
