@@ -10,5 +10,5 @@
 
 .link:hover {
   color: var(--other-main-color);
-  background-color: var(--app-main-color);
+  background-color: var(--footer-hover-bg-color);
 }
