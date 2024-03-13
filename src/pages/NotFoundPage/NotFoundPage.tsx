@@ -8,8 +8,10 @@ export const NotFoundPage = () => {
     <div className={styles.container}>
       <h2>Ooops!</h2>
       <h3>Error 404 - PAGE NOT FOUND</h3>
-      <p>The page you are looking for might have been removed</p>
-      <p>had its name changed or is temporarily unavailable.</p>
+      <p>
+        The page you are looking for might have been removed, had its name
+        changed or is temporarily unavailable.
+      </p>
       <img src={error404} alt="error-404" />
       <Link to="/">
         <motion.button
