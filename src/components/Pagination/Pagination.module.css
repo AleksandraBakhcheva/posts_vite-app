@@ -32,3 +32,11 @@
   color: var(--other-main-color);
   background-color: var(--active-page-bg-color);
 }
+
+@media screen and (max-width: 800px) {
+  .page,
+  .activePageNumber {
+    width: 20px;
+    height: 20px;
+  }
+}

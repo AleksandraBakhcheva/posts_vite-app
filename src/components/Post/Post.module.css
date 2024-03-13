@@ -3,8 +3,6 @@
   min-height: 300px;
   align-items: center;
   padding: 4%;
-  border: var(--post-border);
-  border-radius: 3px;
   cursor: pointer;
   background-color: var(--post-bg-color);
 }

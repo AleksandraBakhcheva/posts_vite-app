@@ -18,6 +18,7 @@
 
 .pagination {
   display: flex;
+  padding: 2%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -39,4 +40,10 @@
 
 .button:hover {
   background-color: var(--page-hover-bg-color);
+}
+
+@media screen and (max-width: 380px) {
+  .button {
+    display: none;
+  }
 }
