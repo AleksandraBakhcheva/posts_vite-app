@@ -18,6 +18,7 @@ App based on {JSON} Placeholder API showing posts with pagination (10 items per 
 - CSS Modules
 - Framer Motion
 - Vite
+- Vercel
   
 ## Start app
 
@@ -30,7 +31,7 @@ npm run dev
 
 ## Project demo
 
-<a target="_blank" href="https://aleksandrabakhcheva.github.io/posts_vite-app/">Click Demo</a>
+<a target="_blank" href="https://posts-vite-app.vercel.app/">Click Demo</a>
 
 ## Author
 
